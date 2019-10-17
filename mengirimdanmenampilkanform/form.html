@@ -1,0 +1,33 @@
+<!DOCTYPE html><!--documen yang diproses adalah html-->
+<html><!--pemrograman kode html dimulai-->
+   <head><!--kepala pembuka, berisi berbagai definisi halaman yang tidak muncul di body halaman, seperti css,java scrip dll-->
+      <meta http-equiv="Content-Type" content="text/html;
+      charset=UTF-8" />
+      <title>Belajar Form PHP</title><!-- judul /title html -->
+   </head><!--penutup kepala-->
+ 
+<body><!--  pembuka badan/body html-->
+   <h2>Tutorial Belajar Form HTML - PHP </h2><!--h2 adalah ukuran font biasanya untuk judul-->
+
+      <!--
+       # Atribut action ini diisi dengan nilai berupa alamat halaman PHP dimana kita akan memproses isi form tersebut
+       # method get : maka nilai dari form akan dikirim melalui alamat URL website
+       # method post : maka nilai dari form tidak akan dikirim melalui alamat URL website
+      -->
+      <form action="proses.php" method="Get">
+
+      <!--
+       #input menungkinkan kita menginput atau memasukkan suatu data dalam sebuah form, ya hampir kaya inputan kesebuah kolom kosong
+      -->
+         Nama: <input type="text" name="nama" />
+            <br /><!--brek atau pindah baris-->
+         E-Mail: <input type="text" name="email" />
+            <br /><!--brek atau pindah baris-->
+
+      <!--
+       #input tipe submit, berfungsi mengirimkan data kepada value ketika melakukan action seperti diklik atau di enter
+      -->
+      <input type="submit" value="Proses Data" >
+      </form><!--penutup form-->
+</body><!--penutup badan/body-->
+</html><!--penutup proses html-->
